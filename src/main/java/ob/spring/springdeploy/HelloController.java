@@ -19,7 +19,7 @@ public class HelloController {
     }
 
 
-    @GetMapping("/boostrap")
+    @GetMapping("/")
     public String boosTrap(){
 
         return """
@@ -34,9 +34,8 @@ public class HelloController {
                         <title>Hello, world!</title>
                     </head>
                     <body>
-                        <h1>PERO QUE DISE LOKETE!</h1>
-                        <h2> COMO ESTEMOS? </h2>
-                        <h3> AQUI ESTEMOS DESDE GOOGLE </h3>
+                        <h1>PRIMERA PRUEBA DESDE SPRING + HEROKU</h1>
+                        <h2> Deploy de la app </h2>
                                 <a class= "btn btn -primary" href="https://www.google.com"> Google </a>
                         <!-- Optional JavaScript; choose one of the two! -->
                                 
